@@ -5,4 +5,126 @@
     <color name="textColor">#202020</color>
     <color name="textColorVice">#6C6C6C</color>
     <color name="viewLineColor">#F0F0F0</color>
+
+
+
+    <color name="colorAccent">#FF7D57</color>
+    <color name="red">#FF0000</color>
+    <color name="redtwo">#FA464D</color>
+    <color name="color_f75000">#F75000</color>
+
+
+    <color name="F4BB4F">#F4BB4F</color>
+    <color name="EE8E36">#EE8E36</color>
+
+    <color name="gradient_end">#F67710</color>
+    <color name="gradient_start">#FFA555</color>
+
+    <color name="background">#f5f6f7</color>
+    <color name="background2">#F5F6FA</color>
+
+    <color name="white">#ffffff</color>
+    <color name="title">#262626</color>
+    <color name="main">#ff8e00</color>
+    <color name="imp_text_color">#000000</color>
+    <color name="light_line_color">#EEEEEE</color>
+    <color name="bg_sky_blue">#2882FE</color>
+    <color name="dbdbdb">#FFDBDBDB</color>
+    <color name="color_translucent">#25000000</color>
+
+    <color name="color_D8E8E8">#D8E8E8</color>
+
+
+    <!-- 分割线颜色-->
+    <color name="divider">#E5E5E5</color>
+    <color name="color_262626">#262626</color>
+    <color name="color_FFE8E8E8">#FFE8E8E8</color>
+
+    <color name="color_FFF5F6FA">#FFF5F6FA</color>
+
+    <color name="transparent2">#00000000</color>
+
+    <color name="transparent1">#B0000000</color>
+
+    <color name="color_cccccc">#CCCCCC</color>
+    <color name="color_feccb5">#FECCB5</color>
+    <color name="color_222">#222222</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_FDF1FA">#FDF1FA</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="color_ff8e00">#ff8e00</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_9b9b9b">#9b9b9b</color>
+    <color name="color_F7F7F7">#f7f7f7</color>
+    <color name="color_F5F6FA">#F5F6FA</color>
+    <color name="color_787878">#787878</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_FEF1DB">#FEF1DB</color>
+    <color name="color_FFDEB5">#FFDEB5</color>
+    <color name="color_F67710">#F67710</color>
+    <color name="color_9D4F08">#9D4F08</color>
+    <color name="color_FFFBF1">#FFFBF1</color>
+    <color name="color_FFECDE">#FFECDE</color>
+    <color name="color_86CDFF">#86CDFF</color>
+    <color name="color_51a2ff">#51A2FF</color>
+    <color name="color_ff8e12">#FF8E12</color>
+
+
+
+    <!-- 测量正常 -->
+    <color name="normal">#5FDF98</color>
+    <!-- 测量过高 -->
+    <color name="high">#EF7C69</color>
+    <!-- 测量偏低 -->
+    <color name="lower">#73CCF6</color>
+    <!-- 测量极高 -->
+    <color name="higher">#8B00CA</color>
+
+    <color name="color_61A7FF">#61A7FF</color>
+
+    <color name="color_FFB44C">#FFB44C</color>
+
+    <color name="color_FF9600">#FF9600</color>
+
+
+    <!-- 测量极高 -->
+    <color name="color_FBE4C3">#FBE4C3</color>
+
+    <color name="color_fff8875c">#FFF8875C</color>
+
+    <color name="color_eb6048">#EB6048</color>
+    <color name="color_F8875c">#F8875C</color>
+
+
+    <!-- 测量正常 -->
+    <color name="color_07C160">#07C160</color>
+    <!-- 测量很高 -->
+    <color name="color_e30000">#E30000</color>
+    <!-- 测量较高 -->
+    <color name="color_F5222D">#F5222D</color>
+
+    <!-- 测量偏高 -->
+    <color name="color_F06300">#F06300</color>
+
+    <!-- 严重低血糖 低血糖 -->
+    <color name="color_517DFF">#517DFF</color>
+
+    <!-- 偏低-->
+    <color name="color_7B62FF">#7B62FF</color>
+
+    <!-- 专家知识库主色 -->
+    <color name="color_orange">#EE7800</color>
+
+    <color name="color_blue">#62A9F1</color>
+    <color name="color_blue2">#6290EB</color>
+
+    <!--    地图 字体 边框 颜色-->
+    <color name="color_map">#ff8e00</color>
+
+    <color name="COLOR_FE996B">#FE996B</color>
+    <color name="COLOR_FF7C35">#FF7C35</color>
+    <color name="COLOR_EAEAEA">#EAEAEA</color>
+
+
+    <color name="COLOR_828699">#828699</color>
 </resources>

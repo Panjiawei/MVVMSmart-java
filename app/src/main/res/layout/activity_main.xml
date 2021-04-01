@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activity.MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.wzq.sample.view.NoScrollViewPager
+                android:id="@+id/vp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/divider" />
+
+            <com.flyco.tablayout.CommonTabLayout
+                android:id="@+id/tl"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="#F7F7F7"
+                app:tl_iconHeight="24dp"
+                app:tl_iconMargin="2dp"
+                app:tl_iconWidth="24dp"
+                app:tl_indicator_width="8dp"
+                app:tl_textSelectColor="@color/COLOR_828699"
+                app:tl_textUnselectColor="@color/color_999999"
+                app:tl_textsize="12sp" />
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
