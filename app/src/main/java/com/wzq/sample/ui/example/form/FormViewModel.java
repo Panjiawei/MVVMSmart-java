@@ -1,4 +1,4 @@
-package com.wzq.sample.ui.form;
+package com.wzq.sample.ui.example.form;
 
 import android.app.Application;
 

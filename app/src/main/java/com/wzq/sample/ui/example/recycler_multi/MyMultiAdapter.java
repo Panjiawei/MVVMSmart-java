@@ -1,4 +1,4 @@
-package com.wzq.sample.ui.recycler_multi;
+package com.wzq.sample.ui.example.recycler_multi;
 
 import android.widget.ImageView;
 
