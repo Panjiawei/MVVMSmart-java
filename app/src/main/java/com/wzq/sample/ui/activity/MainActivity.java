@@ -5,8 +5,12 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 
 import com.flyco.tablayout.listener.CustomTabEntity;
 import com.flyco.tablayout.listener.OnTabSelectListener;
@@ -15,9 +19,10 @@ import com.wzq.sample.base.BaseActivity;
 import com.wzq.sample.base.BaseViewModel;
 import com.wzq.sample.bean.TabEntity;
 import com.wzq.sample.databinding.ActivityMainBinding;
-import com.wzq.sample.ui.example.tab_bar.fragment.TabBar1Fragment;
-import com.wzq.sample.ui.example.tab_bar.fragment.TabBar2Fragment;
-import com.wzq.sample.ui.example.tab_bar.fragment.TabBar3Fragment;
+import com.wzq.sample.ui.tab_bar.fragment.TabBar1Fragment;
+import com.wzq.sample.ui.tab_bar.fragment.TabBar2Fragment;
+import com.wzq.sample.ui.tab_bar.fragment.TabBar3Fragment;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,6 +38,16 @@ public class MainActivity extends BaseActivity<ActivityMainBinding, BaseViewMode
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
        // setContentView(R.layout.activity_main);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            Window window = getWindow();
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                    | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.setStatusBarColor(Color.TRANSPARENT);
+        }
+
     }
 
     @Override
