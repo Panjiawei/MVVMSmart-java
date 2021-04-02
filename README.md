@@ -158,7 +158,7 @@ fragment_multi_rv.xml中关联LinearLayoutManager和MyMultiAdapter。
             type="androidx.recyclerview.widget.LinearLayoutManager" />
         <variable
             name="adapter"
-            type="com.wzq.sample.ui.recycler_multi.MyMultiAdapter" />
+            type="com.wzq.sample.ui.example.recycler_multi.MyMultiAdapter" />
     </data>
     .....
 
@@ -356,7 +356,7 @@ layoutManager控制是线性(包含水平和垂直)排列还是网格排列，li
             type="androidx.recyclerview.widget.LinearLayoutManager" />`</br>
 > ` <variable
             name="adapter"
-            type="com.wzq.sample.ui.recycler_multi.MyMultiAdapter" />`</br>
+            type="com.wzq.sample.ui.example.recycler_multi.MyMultiAdapter" />`</br>
 绑定后,界面自动出现recyclerView;
 
 更多RecyclerView、ListView、ViewPager等绑定方式，请参考 [https://github.com/evant/binding-collection-adapter](https://github.com/evant/binding-collection-adapter)
