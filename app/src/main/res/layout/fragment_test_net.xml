@@ -5,7 +5,7 @@
     <data>
         <variable
             name="viewMole"
-            type="com.wzq.sample.ui.testnet.TestNetViewModel" />
+            type="com.wzq.sample.ui.example.testnet.TestNetViewModel" />
     </data>
 
     <LinearLayout

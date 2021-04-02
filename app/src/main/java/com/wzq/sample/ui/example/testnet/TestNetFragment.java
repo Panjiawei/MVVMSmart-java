@@ -1,4 +1,4 @@
-package com.wzq.sample.ui.testnet;
+package com.wzq.sample.ui.example.testnet;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

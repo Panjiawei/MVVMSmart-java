@@ -1,4 +1,4 @@
-package com.wzq.sample.ui.vp_frg;
+package com.wzq.sample.ui.example.vp_frg;
 
 
 import androidx.fragment.app.Fragment;

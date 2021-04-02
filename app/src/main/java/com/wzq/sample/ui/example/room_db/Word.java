@@ -1,4 +1,4 @@
-package com.wzq.sample.ui.room_db;
+package com.wzq.sample.ui.example.room_db;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;

@@ -1,4 +1,4 @@
-package com.wzq.sample.ui.recycler_single_network;
+package com.wzq.sample.ui.example.recycler_single_network;
 
 import com.wzq.mvvmsmart.base.BaseModelMVVM;
 import com.wzq.sample.data.source.http.service.DemoApiService;

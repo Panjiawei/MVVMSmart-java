@@ -1,4 +1,4 @@
-package com.wzq.sample.ui.tab_bar.activity;
+package com.wzq.sample.ui.example.tab_bar.activity;
 
 import android.os.Bundle;
 
@@ -10,10 +10,10 @@ import com.wzq.sample.R;
 import com.wzq.sample.base.BaseActivity;
 import com.wzq.sample.base.BaseViewModel;
 import com.wzq.sample.databinding.ActivityTabBarBinding;
-import com.wzq.sample.ui.tab_bar.fragment.TabBar1Fragment;
-import com.wzq.sample.ui.tab_bar.fragment.TabBar2Fragment;
-import com.wzq.sample.ui.tab_bar.fragment.TabBar3Fragment;
-import com.wzq.sample.ui.tab_bar.fragment.TabBar4Fragment;
+import com.wzq.sample.ui.example.tab_bar.fragment.TabBar1Fragment;
+import com.wzq.sample.ui.example.tab_bar.fragment.TabBar2Fragment;
+import com.wzq.sample.ui.example.tab_bar.fragment.TabBar3Fragment;
+import com.wzq.sample.ui.example.tab_bar.fragment.TabBar4Fragment;
 
 import java.util.ArrayList;
 import java.util.List;

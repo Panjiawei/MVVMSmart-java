@@ -1,4 +1,4 @@
-package com.wzq.sample.ui.tab_bar.fragment;
+package com.wzq.sample.ui.example.tab_bar.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

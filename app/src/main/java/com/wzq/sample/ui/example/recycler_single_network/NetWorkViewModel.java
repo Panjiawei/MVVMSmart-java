@@ -1,4 +1,4 @@
-package com.wzq.sample.ui.recycler_single_network;
+package com.wzq.sample.ui.example.recycler_single_network;
 
 import android.app.Application;
 
