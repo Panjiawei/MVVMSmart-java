@@ -1,4 +1,4 @@
-package com.wzq.sample.data.source.http.service;
+package com.wzq.sample.utils.http.service;
 
 
 import com.wzq.mvvmsmart.http.BaseResponse;
@@ -12,7 +12,7 @@ import retrofit2.http.POST;
 import retrofit2.http.Query;
 
 
-public interface DemoApiService {
+public interface Api {
 
     @GET("action/apiv2/banner")
     Observable<BaseResponse<DemoBean>> demoGet(@Query("catalog") int pageNum);

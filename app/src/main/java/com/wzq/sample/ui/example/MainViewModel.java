@@ -1,4 +1,4 @@
-package com.wzq.sample.ui;
+package com.wzq.sample.ui.example;
 
 import android.app.Application;
 

@@ -1,7 +1,7 @@
 package com.wzq.sample.ui.example.recycler_single_network;
 
 import com.wzq.mvvmsmart.base.BaseModelMVVM;
-import com.wzq.sample.data.source.http.service.DemoApiService;
+import com.wzq.sample.utils.http.service.Api;
 import com.wzq.sample.utils.RetrofitClient;
 
 import io.reactivex.Completable;
@@ -17,8 +17,8 @@ public class NetWorkModel extends BaseModelMVVM {
 
     Observable demoGet(int pageNum) {
         RetrofitClient instance = RetrofitClient.getInstance();
-        DemoApiService demoApiService = instance.create(DemoApiService.class);
-        return demoApiService.demoGet(pageNum);
+        Api api = instance.create(Api.class);
+        return api.demoGet(pageNum);
     }
 
 

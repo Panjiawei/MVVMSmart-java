@@ -1,23 +1,24 @@
-package com.wzq.sample.data.source.http;
+package com.wzq.sample.utils.http;
 
 
-import com.wzq.sample.data.source.http.service.DemoApiService;
-import com.wzq.sample.bean.DemoBean;
 import com.wzq.mvvmsmart.http.BaseResponse;
+import com.wzq.sample.bean.DemoBean;
+import com.wzq.sample.utils.http.service.Api;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+
 
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;
 
 public class HttpDataSourceImpl {
-    private DemoApiService apiService;
+    private Api apiService;
     private volatile static HttpDataSourceImpl INSTANCE = null;
 
-    public static HttpDataSourceImpl getInstance(DemoApiService apiService) {
+    public static HttpDataSourceImpl getInstance(Api apiService) {
         if (INSTANCE == null) {
             synchronized (HttpDataSourceImpl.class) {
                 if (INSTANCE == null) {
@@ -32,7 +33,7 @@ public class HttpDataSourceImpl {
         INSTANCE = null;
     }
 
-    private HttpDataSourceImpl(DemoApiService apiService) {
+    private HttpDataSourceImpl(Api apiService) {
         this.apiService = apiService;
     }
 

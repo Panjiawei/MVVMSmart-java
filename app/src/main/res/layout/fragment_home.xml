@@ -5,11 +5,11 @@
 
         <variable
             name="presenter"
-            type="com.wzq.sample.ui.MainFragment.Presenter" />
+            type="com.wzq.sample.ui.example.MainFragment.Presenter" />
 
         <variable
             name="viewModel"
-            type="com.wzq.sample.ui.MainViewModel" />
+            type="com.wzq.sample.ui.example.MainViewModel" />
     </data>
 
     <ScrollView

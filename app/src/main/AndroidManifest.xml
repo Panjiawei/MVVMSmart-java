@@ -19,7 +19,7 @@
         android:roundIcon="@mipmap/meitu"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.MainActivity"/>
+        <activity android:name=".ui.example.MainActivity"/>
 <!--        <activity android:name=".ui.activity.MainActivity"/>-->
 <!--        <activity android:name=".ui.MainActivity">-->
             <activity android:name=".ui.activity.MainActivity">

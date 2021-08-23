@@ -10,7 +10,7 @@ import com.wzq.mvvmsmart.utils.KLog;
 import com.wzq.mvvmsmart.utils.RxUtils;
 import com.wzq.mvvmsmart.utils.ToastUtils;
 import com.wzq.sample.base.BaseViewModel;
-import com.wzq.sample.data.source.http.service.DemoApiService;
+import com.wzq.sample.utils.http.service.Api;
 import com.wzq.sample.utils.RetrofitClient;
 
 import io.reactivex.Observer;
@@ -32,7 +32,7 @@ public class TestNetViewModel extends BaseViewModel {
     }
 
     public void getData() {
-        DemoApiService apiService = RetrofitClient.getInstance().create(DemoApiService.class);
+        Api apiService = RetrofitClient.getInstance().create(Api.class);
         apiService.getJsonFile()
                 .compose(RxUtils.observableToMain()) //线程调度,compose操作符是直接对当前Observable进行操作（可简单理解为不停地.方法名（）.方法名（）链式操作当前Observable）
                 .compose(RxUtils.exceptionTransformer()) // 网络错误的异常转换, 这里可以换成自己的ExceptionHandle
