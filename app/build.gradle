@@ -65,7 +65,7 @@ android {
             applicationId 'com.wzq.sample.dev'
             manifestPlaceholders = [
                     channelName            : "dev",
-                    app_name               : "PFXdev",
+                    app_name               : "Demodev",
                     network_security_config: "@xml/network_security_config",
 
             ]
@@ -78,7 +78,7 @@ android {
             applicationId 'com.wzq.sample.test'
             manifestPlaceholders = [
                     channelName            : "mmctest",
-                    app_name               : "PFXtest",
+                    app_name               : "Demotest",
                     network_security_config: "@xml/network_security_config",
             ]
         }
@@ -89,7 +89,7 @@ android {
             applicationId 'com.wzq.sample'
             manifestPlaceholders = [
                     channelName            : "product",
-                    app_name               : "PFX",
+                    app_name               : "Demo",
                     network_security_config: "@xml/network_security_config_release",
             ]
         }
