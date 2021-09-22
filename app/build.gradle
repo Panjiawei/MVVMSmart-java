@@ -55,12 +55,12 @@ android {
             signingConfig signingConfigs.debug
         }
     }
-    flavorDimensions "mmcassistant"
+    flavorDimensions "sj"
 
     productFlavors {
         //开发环境
         dev {
-            dimension "mmcassistant"
+            dimension "sj"
             buildConfigField "int", "ENV_TYPE", "1"
             applicationId 'com.wzq.sample.dev'
             manifestPlaceholders = [
@@ -73,7 +73,7 @@ android {
 
         //test测试环境
         mmctest {
-            dimension "mmcassistant"
+            dimension "sj"
             buildConfigField "int", "ENV_TYPE", "2"
             applicationId 'com.wzq.sample.test'
             manifestPlaceholders = [
@@ -84,7 +84,7 @@ android {
         }
         //生产环境
         product {
-            dimension "mmcassistant"
+            dimension "sj"
             buildConfigField "int", "ENV_TYPE", "3"
             applicationId 'com.wzq.sample'
             manifestPlaceholders = [
