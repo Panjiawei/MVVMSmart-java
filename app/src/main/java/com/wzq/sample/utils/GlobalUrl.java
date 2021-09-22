@@ -16,7 +16,6 @@ public class GlobalUrl {
 
 
     public static String[] SERVICE_URLS = new String[]{
-            "http://app.dev.zhengdianpai.cn:9991/",
 
     };
 
