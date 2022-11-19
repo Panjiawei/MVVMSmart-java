@@ -19,9 +19,9 @@ import com.wzq.sample.base.BaseActivity;
 import com.wzq.sample.base.BaseViewModel;
 import com.wzq.sample.bean.TabEntity;
 import com.wzq.sample.databinding.ActivityMainBinding;
-import com.wzq.sample.ui.tab_bar.fragment.TabBar1Fragment;
-import com.wzq.sample.ui.tab_bar.fragment.TabBar2Fragment;
-import com.wzq.sample.ui.tab_bar.fragment.TabBar3Fragment;
+import com.wzq.sample.ui.example.tab_bar.fragment.TabBar1Fragment;
+import com.wzq.sample.ui.example.tab_bar.fragment.TabBar2Fragment;
+import com.wzq.sample.ui.example.tab_bar.fragment.TabBar3Fragment;
 
 
 import java.util.ArrayList;

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MVVMSmart-sample</string>
+    <string name="app_name">美兔</string>
     <string name="contentDescription">contentDescription</string>
     <string name="net_single_cell">net_single_cell</string>
     <string name="net_multiple_cell">net_multiple_cell</string>
