@@ -99,9 +99,7 @@ android {
 
     android.applicationVariants.all { variant ->
         variant.outputs.all { output ->
-            def outputFile = output.outputFile
             def fileName
-            if (outputFile != null && outputFile.name.endsWith('.apk')) {
                 if (variant.buildType.name.equals('release')) {
                     // 渠道名-版本名称-编译时间_release.apk
                     fileName = "${variant.productFlavors[0].name}-${defaultConfig.versionName}-${releaseTime()}_release.apk"
@@ -110,9 +108,23 @@ android {
                     fileName = "${variant.productFlavors[0].name}-${defaultConfig.versionName}-${releaseTime()}_debug.apk"
                 }
                 outputFileName = fileName
-            }
+
         }
     }
+
+//    applicationVariants.all { variant ->
+//        variant.outputs.each { output ->
+//            variant.packageApplicationProvider.get().outputDirectory = new File(project.rootDir.absolutePath + "/apk")
+//
+//            def fileName
+//            if (output.name == 'debug') {
+//                fileName = "AppName-v${defaultConfig.versionName}-c${defaultConfig.versionCode}-test.apk"
+//            } else {
+//                fileName = "AppName-v${defaultConfig.versionName}-c${defaultConfig.versionCode}.apk"
+//            }
+//            output.outputFileName = fileName
+//        }
+//    }
 
 
 }
