@@ -39,8 +39,7 @@ google AAC(Android Architecture Components:安卓架构组件):
 
 - **基类封装**
   	专门针对MVVM模式打造的BaseActivityMVVM、BaseFragmentMVVM、BaseViewModelMVVM，在View层中不再需要定义ViewDataBinding和ViewModel，直接在BaseActivityMVVM、BaseFragmentMVVM上限定泛型即可使用.支持navigation导航Fragment的管理,导航返回时候回调用OnCreateView,BaseFragmentMVVM已经封装,标题使用include导入布局, Base层预留的有 initToolbar(),标题的返回、文字设置、右侧更多等在这个方法初始化即可,普通界面只需要编写Fragment，然后使用navigation导航,不用在manifest注册,性能也更好.
-
-
+  
 - **全局操作**
 1. google的AAC架构，ViewModel+Lifecycles+Navigation+DataBinding+LiveData。
 2. LoggingInterceptor全局拦截网络请求日志，打印Request和Response，格式化json、xml数据显示，方便与后台调试接口。
